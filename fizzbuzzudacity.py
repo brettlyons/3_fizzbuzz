@@ -1,3 +1,4 @@
+def fizzBuzz(intList):
     newList = list(intList)
         # newList is the list to be returned, copy to prevent unwanted mutation
         # of intList.
@@ -10,4 +11,4 @@
                     newList[i] = "Buzz"
                 else:
                     newList[i] = intList[i]
-                return newList
+        return newList
